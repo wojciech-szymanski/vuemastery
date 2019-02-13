@@ -12,6 +12,7 @@ body {
   
   .product {
     display: flex;
+    flex-flow: wrap;
   }
   
   img {
@@ -22,7 +23,7 @@ body {
   }
   
   .product-image {
-    flex-basis: 700px;
+    flex-basis: 300px;
   }
   
   .product-info {
@@ -57,10 +58,16 @@ body {
     background-color: #d8d8d8;
   }
   
-  .review-form {
-    width: 30%;
+  .review-list {
+    flex-basis: 800px;
     padding: 20px;
-    border: 1px solid #d8d8d8;  
+  }
+
+  .review-form {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #d8d8d8;
   }
   
   input {
